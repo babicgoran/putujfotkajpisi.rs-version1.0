@@ -1,0 +1,328 @@
+.container-fluid {
+  margin: 0;
+  padding-right: 0px !important;
+  padding-left: 0px !important; }
+
+* {
+  font-family: 'Titillium Web', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Titillium Web", sans-serif; }
+
+.bezmarginaipadinga {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+li {
+  text-align: justify;
+  padding-left: 0px !important;
+  padding-right: 25px !important; }
+
+header {
+  margin: 0px !important;
+  background-color: white !important; }
+  header nav {
+    padding: 0;
+    margin: 0 auto; }
+    header nav a {
+      color: #252525 !important;
+      font-family: "Titillium Web", sans-serif;
+      text-align: center; }
+  header .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: white; }
+  header .navbar-toggler-icon {
+    background-color: white; }
+  header #navbarNavDropdown {
+    justify-content: flex-end; }
+
+main #karuselzamobilni {
+  display: none; }
+main .centriranje {
+  padding: 0px;
+  margin: 0 auto; }
+main .punasirina {
+  width: 100%; }
+main .naslovnafotografija {
+  padding: 0;
+  border-radius: 0px; }
+main .uvod {
+  border: solid 3px #ecd5cd;
+  margin: 0 auto;
+  padding: 20px; }
+  main .uvod p {
+    margin: auto; }
+main .tekstUvoda {
+  margin: auto auto !important; }
+main .fotkaUvoda {
+  width: 100%;
+  height: 100%;
+  margin: auto; }
+main .veza {
+  color: #252525;
+  font-weight: bold;
+  text-shadow: #ecd5cd 2px 2px 2px;
+  border-bottom: dotted 2px #ecd5cd; }
+main .veza:hover {
+  color: #252525;
+  background-color: #ecd5cd;
+  text-decoration: none; }
+main .ponistenaVeza {
+  color: #252525;
+  text-shadow: #ecd5cd 2px 2px 2px;
+  border-bottom: dotted 2px #ecd5cd; }
+main .ponistenaVeza:hover {
+  color: #252525;
+  background-color: #ecd5cd;
+  text-decoration: none; }
+main .presekzaresponsive {
+  display: none; }
+main .destinacije {
+  margin: 0px; }
+  main .destinacije h1 {
+    padding: 0;
+    text-align: center;
+    margin: 30px auto; }
+  main .destinacije p {
+    padding: 10px;
+    text-align: justify;
+    margin: 0 auto; }
+  main .destinacije h2 {
+    text-align: center;
+    margin: 30px auto 20px;
+    padding: 0px; }
+  main .destinacije a img {
+    border-radius: 6%;
+    margin: 3.25px auto;
+    padding: 0px 5px; }
+  main .destinacije .kartica {
+    text-align: center;
+    margin: 0 auto; }
+
+@media all and (max-width: 900px) {
+  #portugal, #glavnigradovievrope, #spanija {
+    display: none; }
+
+  #karuselzamobilni {
+    display: initial !important; }
+
+  #karuselzadesktop {
+    display: none; }
+
+  .presekzaresponsive {
+    display: initial !important; } }
+.o_nama h1 {
+  text-align: center;
+  margin: 30px 0px;
+  padding: 0px; }
+.o_nama p {
+  margin: 15px auto;
+  text-align: center; }
+  .o_nama p a {
+    color: #252525;
+    font-weight: bold;
+    text-shadow: #ecd5cd 2px 2px 2px;
+    border-bottom: dotted 2px #ecd5cd; }
+  .o_nama p a:hover {
+    color: #252525;
+    background-color: #ecd5cd;
+    text-decoration: none; }
+.o_nama .fotoalbum {
+  margin: 10px auto;
+  border: solid #ecd5cd 2px;
+  padding: 15px; }
+  .o_nama .fotoalbum img {
+    margin: 0px !important; }
+.o_nama .fotoalbumDupli {
+  margin: 10px auto;
+  border: solid #ecd5cd 2px;
+  padding: 10px; }
+  .o_nama .fotoalbumDupli img {
+    margin: 0px !important;
+    padding: 5px; }
+  .o_nama .fotoalbumDupli p {
+    margin-bottom: 0px !important; }
+
+.linija {
+  border-top: solid #ecd5cd 2px; }
+
+.korisnisaveti h2 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 5px 0px; }
+.korisnisaveti .centmargina {
+  margin: 0 auto; }
+.korisnisaveti .fotoalbumDupli {
+  margin: 10px auto;
+  border: solid #ecd5cd 2px;
+  padding: 10px; }
+  .korisnisaveti .fotoalbumDupli img {
+    margin: 0px !important;
+    padding: 5px; }
+  .korisnisaveti .fotoalbumDupli p {
+    margin-bottom: 0px !important; }
+.korisnisaveti .ispodteksta {
+  text-align: center !important; }
+.korisnisaveti a {
+  color: #252525;
+  font-weight: bold;
+  text-shadow: #ecd5cd 2px 2px 2px;
+  border-bottom: dotted 2px #ecd5cd; }
+.korisnisaveti a:hover {
+  color: #252525;
+  background-color: #ecd5cd;
+  text-decoration: none; }
+
+.odabirdestinacije {
+  margin: 0px !important; }
+  .odabirdestinacije h1 {
+    padding: 0;
+    text-align: center;
+    margin: 30px 0px; }
+  .odabirdestinacije .odabirlokacije {
+    width: 100%;
+    background-color: white !important;
+    color: #252525;
+    border: 0px;
+    border-bottom: solid #ecd5cd 2px;
+    border-radius: 0px; }
+    .odabirdestinacije .odabirlokacije li {
+      padding-right: 0 !important; }
+    .odabirdestinacije .odabirlokacije .navbar-toggler {
+      padding: 4px;
+      border: none; }
+    .odabirdestinacije .odabirlokacije .navbar-toggler-icon {
+      background-image: url(../fotografije_naslovna/plus.png); }
+
+.glavni {
+  border-top: solid #ecd5cd 2px;
+  margin: 0 !important;
+  padding: 0 !important;
+  justify-content: center; }
+  .glavni .centriranje {
+    padding: 0px;
+    margin: 0 auto; }
+  .glavni .punasirina {
+    width: 100%; }
+  .glavni .glavninaslov {
+    text-align: center;
+    margin: 30px auto;
+    padding: 0; }
+  .glavni .podnaslov {
+    text-align: center;
+    margin: 20px auto;
+    padding: 0; }
+  .glavni .istaknuto {
+    font-size: 1.3em;
+    color: #252525;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    background-color: #ecd5cd; }
+  .glavni .ispodteksta {
+    margin-bottom: 20px !important;
+    text-align: center !important; }
+  .glavni .fotoalbum {
+    margin: 10px auto;
+    border: solid #ecd5cd 2px;
+    padding: 15px; }
+    .glavni .fotoalbum img {
+      margin: 0px !important; }
+  .glavni .fotoalbumDupli {
+    margin: 10px auto;
+    border: solid #ecd5cd 2px;
+    padding: 10px; }
+    .glavni .fotoalbumDupli img {
+      margin: 0px !important;
+      padding: 5px; }
+    .glavni .fotoalbumDupli p {
+      margin-bottom: 0px !important; }
+  .glavni .sadrzaj p {
+    text-align: justify;
+    margin: 5px auto;
+    padding: 0px 10px; }
+  .glavni .sadrzaj a {
+    color: #252525;
+    font-weight: bold;
+    text-shadow: #ecd5cd 2px 2px 2px;
+    border-bottom: dotted 2px #ecd5cd; }
+  .glavni .sadrzaj a:hover {
+    color: #252525;
+    background-color: #ecd5cd;
+    text-decoration: none; }
+  .glavni .sadrzaj img {
+    margin: 10px auto; }
+  .glavni .sadrzaj h6 {
+    margin: 0 auto;
+    text-align: center; }
+  .glavni aside {
+    margin: 0;
+    padding: 0; }
+    .glavni aside .brziMeni {
+      margin: 60px 20px;
+      padding: 0 5px; }
+      .glavni aside .brziMeni .brzaDestinacija {
+        padding: 0 5px;
+        margin: 10px auto; }
+      .glavni aside .brziMeni .pin {
+        width: 20px;
+        margin: 10px 10px; }
+      .glavni aside .brziMeni a {
+        font-size: 1.2rem;
+        margin: 10px 0px;
+        background-color: #ecd5cd;
+        color: #252525;
+        border-radius: 5px; }
+      .glavni aside .brziMeni a:hover {
+        font-weight: bold;
+        text-decoration: none; }
+  .glavni .instagramfotografije {
+    margin: 15px auto 15px !important; }
+
+@media all and (max-width: 900px) {
+  .brziMeni {
+    display: none; } }
+.kontakt h1 {
+  padding: 0;
+  text-align: center;
+  margin: 30px auto; }
+.kontakt h2 {
+  margin: 0 auto; }
+.kontakt p {
+  margin: 15px auto;
+  text-align: center; }
+.kontakt .mejl {
+  font-weight: bold;
+  text-align: center; }
+.kontakt .linkzainsta {
+  font-weight: bold;
+  color: #252525;
+  text-shadow: #ecd5cd 2px 2px 2px;
+  border-bottom: dotted 2px #ecd5cd; }
+.kontakt .linkzainsta:hover {
+  font-weight: bold;
+  color: #252525;
+  background-color: #ecd5cd;
+  text-decoration: none; }
+.kontakt .centriranje {
+  padding: 0px;
+  margin: 0 auto; }
+.kontakt .punasirina {
+  width: 100%; }
+
+#futer {
+  margin-top: 30px;
+  color: #424244;
+  background-color: #ecd5cd; }
+  #futer h2 {
+    font-family: 'Dancing Script', cursive;
+    margin: 15px auto 10px; }
+  #futer .sortiranje {
+    justify-content: center; }
+  #futer .ram {
+    border: solid white 3px;
+    padding: 10px 25px;
+    margin: 5px;
+    box-sizing: border-box; }
+  #futer a img {
+    border-radius: 0px; }
